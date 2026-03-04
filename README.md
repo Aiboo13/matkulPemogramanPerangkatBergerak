@@ -11,5 +11,47 @@ tugas:
 menambahkan fungsi button decrement
 ```
 
-result ada di [tugas](/hasil.png)
+hasil tugas ![tugas](/hasil2.png)
 ---
+hasil tugas ![tugas](/hasil.png)
+---
+
+code yang dirubah
+
+```
+floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          FloatingActionButton(
+            onPressed: _incrementCounter,
+            tooltip: 'Increment',
+            child: const Icon(Icons.add),
+          ),
+          const SizedBox(width: 16), // adding some space between the buttons
+          FloatingActionButton(
+            onPressed: _decrementCounter,
+            tooltip: 'Decrement',
+            child: const Icon(Icons.remove),
+          ),
+        ],
+```
+
+---
+
+inisialisasi fungsi
+
+```
+int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  void _decrementCounter() {
+    setState(() {
+      _counter--;
+    });
+  }
+```
