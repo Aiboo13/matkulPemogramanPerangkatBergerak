@@ -11,9 +11,9 @@ tugas:
 menambahkan fungsi button decrement
 ```
 
-hasil tugas ![tugas](/hasil2.png)
+#### hasil tugas ![tugas](/hasil2.png)
 ---
-hasil tugas ![tugas](/hasil.png)
+ #### hasil tugas ![tugas](/hasil.png)
 ---
 
 code yang dirubah
@@ -55,3 +55,19 @@ int _counter = 0;
     });
   }
 ```
+---
+### TUGAS 3 
+##### MEMBUAT KOVERSI SUHU
+---
+
+folder tugas minggu ke 3 ada di
+[TugasMingguan/tugas_minggu_3_konversi_suhu](/TugasMingguan/tugas_minggu_3_konvensi_suhu/)
+
+##### HASIL TUGAS
+![](/result_task/tugas3.png)
+---
+![](/result_task/tugas3_1.png)
+---
+![](/result_task/tugas3_2.png)
+
+
